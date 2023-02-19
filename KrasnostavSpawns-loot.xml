@@ -1,0 +1,168 @@
+
+
+You will need to update you events.xml and mapgrouppos. With these
+Enjoy!
+FroztyReaper
+
+
+
+
+	<!-- Krasno spawns Add these into events.xml -->
+	<event name="InfectedKrasno">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="30" type="ZmbM_PatrolNormal_Autumn"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Flat"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_PautRev"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Summer"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_SoldierNormal"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
+        </children>
+    </event>
+	
+	
+	
+	<!-- 				KRASNO Lootspawn! Add into mapgroup pos				-->
+	<group name="Land_Mil_ATC_Big" pos="12116.616211 155.925842 12687.292969" rpy="0.000000 0.000000 -159.758942" a="-110.241"/>
+	<group name="Land_Mil_Barracks5" pos="12166.672852 145.912628 12603.802734" rpy="-0.000000 -0.000000 -4.162537" a="94.1625"/>
+	<group name="Land_Mil_Barracks3" pos="12113.195313 142.164658 12636.563477" rpy="-0.000000 -0.000000 -160.783142" a="-109.217"/>
+	<group name="Land_Mil_Barracks1" pos="12151.082031 141.948349 12659.215820" rpy="-0.000000 -0.000000 -66.596397" a="156.596"/>
+	<group name="Land_Mil_Barracks2" pos="12148.866211 141.547546 12685.241211" rpy="-0.000000 -0.000000 112.749161" a="-22.7492"/>
+	<group name="StaticObj_Wall_IndFnc2_9" pos="12175.696289 140.609711 12565.766602" rpy="-0.000000 -0.000000 -176.008484" a="-93.9915"/>
+	<group name="StaticObj_Wall_IndFnc2_9" pos="12166.789063 140.610519 12566.333008" rpy="0.000000 0.000000 -176.008316" a="-93.9917"/>
+	<group name="StaticObj_Wall_IndFnc2_9" pos="12207.844727 140.623184 12573.573242" rpy="-0.000000 -0.000000 136.593811" a="-46.5938"/>
+	<group name="StaticObj_Wall_IndFnc2_9" pos="12150.415039 140.607285 12572.812500" rpy="0.000000 0.000000 -152.355225" a="-117.645"/>
+	<group name="StaticObj_Wall_IndFnc2_9" pos="12142.403320 140.595642 12576.946289" rpy="-0.000000 -0.000000 -152.355347" a="-117.645"/>
+	<group name="StaticObj_Wall_IndFnc2_9" pos="12193.598633 140.620544 12564.627930" rpy="-0.000000 -0.000000 -176.008499" a="-93.9915"/>
+	<group name="StaticObj_Container_2B" pos="12159.395508 142.507843 12640.069336" rpy="0.000000 0.000000 28.621883" a="61.3781"/>
+	<group name="StaticObj_Wall_IndFnc2_9" pos="12201.400391 140.623993 12567.400391" rpy="0.000000 0.000000 136.593948" a="-46.5939"/>
+	<group name="StaticObj_Wall_IndFnc2_9" pos="12184.691406 140.621353 12565.194336" rpy="0.000000 0.000000 -176.008316" a="-93.9917"/>
+	<group name="Land_Wreck_V3S" pos="12169.900391 141.554001 12654.599609" rpy="1.999999 -1.999971 -65.407997" a="155.408"/>
+	<group name="Land_Wreck_Lada_Green" pos="12228.469727 140.660049 12584.817383" rpy="-0.000000 -0.000000 111.274796" a="-21.2748"/>
+	<group name="Land_Mil_Barracks1" pos="12139.302734 142.011902 12664.123047" rpy="-0.000000 -0.000000 -66.787331" a="156.787"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12237.342773 142.367493 12594.667969" rpy="-0.000000 -0.000000 -45.534443" a="135.534"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12240.049805 142.352600 12597.404297" rpy="-0.000000 -0.000000 -45.534439" a="135.534"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12242.746094 142.363327 12600.133789" rpy="-0.000000 -0.000000 -45.534439" a="135.534"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12245.453125 142.348434 12602.870117" rpy="-0.000000 -0.000000 -45.534439" a="135.534"/>
+	<group name="StaticObj_Wall_IndFnc2_9" pos="12158.345703 140.606476 12568.711914" rpy="-0.000000 -0.000000 -152.355347" a="-117.645"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12250.870117 142.340744 12608.336914" rpy="-0.000000 -0.000000 -45.534439" a="135.534"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12253.566406 142.351471 12611.066406" rpy="-0.000000 -0.000000 -45.534439" a="135.534"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12256.273438 142.336578 12613.802734" rpy="-0.000000 -0.000000 -45.534439" a="135.534"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12258.052734 142.355270 12618.509766" rpy="-0.000000 -0.000000 -103.561348" a="-166.439"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12257.170898 142.340378 12622.262695" rpy="-0.000000 -0.000000 -103.561348" a="-166.439"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12256.277344 142.351105 12625.990234" rpy="-0.000000 -0.000000 -103.561348" a="-166.439"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12255.393555 142.334091 12629.738281" rpy="-0.000000 -0.000000 -103.561378" a="-166.439"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12254.515625 142.340729 12633.481445" rpy="-0.000000 -0.000000 -103.561378" a="-166.439"/>
+	<group name="StaticObj_Wall_IndFnc2_9" pos="12134.470703 140.596451 12581.036133" rpy="0.000000 0.000000 -152.355072" a="-117.645"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12252.743164 142.339249 12640.966797" rpy="-0.000000 -0.000000 -103.561348" a="-166.439"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12251.845703 142.324356 12644.708008" rpy="-0.000000 -0.000000 -103.561348" a="-166.439"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12245.128906 142.288498 12670.733398" rpy="-0.000000 -0.000000 -104.854904" a="-165.145"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12244.143555 142.273605 12674.467773" rpy="-0.000000 -0.000000 -104.854851" a="-165.145"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12250.944336 142.304520 12648.421875" rpy="-0.000000 -0.000000 -104.854904" a="-165.145"/>
+	<group name="StaticObj_Shed_Open_Big_Complete" pos="12168.175781 143.221848 12646.224609" rpy="-0.000000 -0.000000 22.164755" a="67.8352"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12248.988281 142.300354 12655.856445" rpy="-0.000000 -0.000000 -104.854904" a="-165.145"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12248.034180 142.285461 12659.578125" rpy="-0.000000 -0.000000 -104.854851" a="-165.145"/>
+	<group name="Land_Wreck_Uaz" pos="12167.599609 140.831406 12644.799805" rpy="0.000000 0.000000 0.000000" a="90"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12246.083984 142.274323 12667.035156" rpy="-0.000000 -0.000000 -104.854713" a="-165.145"/>
+	<group name="StaticObj_Wall_MilCnc_Corner" pos="12258.423828 142.253723 12615.776367" rpy="0.000000 0.000000 -102.464371" a="-167.536"/>
+	<group name="StaticObj_Wall_MilCnc_Corner" pos="12243.263672 142.226791 12677.138672" rpy="-0.000000 -0.000000 174.852264" a="-84.8523"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12240.619141 142.294662 12678.249023" rpy="-0.000000 -0.000000 -153.279556" a="-116.72"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12237.183594 142.279770 12679.983398" rpy="-0.000000 -0.000000 -153.279556" a="-116.72"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12212.988281 142.243912 12691.694336" rpy="-0.000000 -0.000000 -154.573181" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12209.505859 142.205856 12693.349609" rpy="-0.000000 -0.000000 -154.572998" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12233.772461 142.259933 12681.697266" rpy="-0.000000 -0.000000 -154.573181" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12230.291016 142.245041 12683.368164" rpy="-0.000000 -0.000000 -154.573181" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12226.830078 142.255768 12685.009766" rpy="-0.000000 -0.000000 -154.573181" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12223.388672 142.240875 12686.685547" rpy="-0.000000 -0.000000 -154.573181" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12219.906250 142.229858 12688.359375" rpy="-0.000000 -0.000000 -154.573441" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12216.436523 142.219666 12690.026367" rpy="-0.000000 -0.000000 -154.572784" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12206.069336 142.220444 12695.058594" rpy="-0.000000 -0.000000 -153.279541" a="-116.72"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12202.633789 142.205551 12696.792969" rpy="-0.000000 -0.000000 -153.279541" a="-116.72"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12178.438477 142.169693 12708.503906" rpy="-0.000000 -0.000000 -154.573166" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12174.956055 142.131638 12710.159180" rpy="-0.000000 -0.000000 -154.572998" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12199.222656 142.185715 12698.506836" rpy="-0.000000 -0.000000 -154.573166" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12195.741211 142.170822 12700.177734" rpy="-0.000000 -0.000000 -154.573166" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12192.280273 142.181549 12701.819336" rpy="-0.000000 -0.000000 -154.573166" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12188.838867 142.166656 12703.495117" rpy="-0.000000 -0.000000 -154.573166" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12185.356445 142.155640 12705.168945" rpy="-0.000000 -0.000000 -154.573425" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12181.886719 142.145447 12706.835938" rpy="-0.000000 -0.000000 -154.572769" a="-115.427"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12158.853516 142.234421 12717.493164" rpy="-0.000000 -0.000000 -157.668488" a="-112.332"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12133.831055 142.198563 12727.316406" rpy="-0.000000 -0.000000 -158.962158" a="-111.038"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12130.237305 142.160507 12728.696289" rpy="-0.000000 -0.000000 -158.961899" a="-111.038"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12248.163086 142.355637 12605.600586" rpy="-0.000000 -0.000000 -45.534439" a="135.534"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12151.721680 142.199692 12720.345703" rpy="-0.000000 -0.000000 -158.962158" a="-111.038"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12148.146484 142.210419 12721.714844" rpy="-0.000000 -0.000000 -158.962158" a="-111.038"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12144.584961 142.195526 12723.120117" rpy="-0.000000 -0.000000 -158.962158" a="-111.038"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12140.984375 142.184509 12724.522461" rpy="-0.000000 -0.000000 -158.962418" a="-111.038"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12137.398438 142.174316 12725.919922" rpy="-0.000000 -0.000000 -158.961777" a="-111.038"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12126.679688 142.175095 12730.144531" rpy="-0.000000 -0.000000 -157.668488" a="-112.332"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12123.118164 142.149521 12731.610352" rpy="-0.000000 -0.000000 -157.668167" a="-112.332"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12104.084961 142.101913 12719.855469" rpy="-0.000000 -0.000000 119.688965" a="-29.689"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12102.179688 142.063858 12716.500000" rpy="-0.000000 -0.000000 119.689194" a="-29.6892"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12119.583008 142.140366 12733.059570" rpy="-0.000000 -0.000000 -158.962158" a="-111.038"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12115.987305 142.125473 12734.460938" rpy="-0.000000 -0.000000 -158.962158" a="-111.038"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12111.783203 142.086426 12733.161133" rpy="-0.000000 -0.000000 119.688965" a="-29.689"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12109.860352 142.098877 12729.855469" rpy="-0.000000 -0.000000 119.688965" a="-29.689"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12107.931641 142.087860 12726.506836" rpy="-0.000000 -0.000000 119.688705" a="-29.6887"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12106.004883 142.077667 12723.169922" rpy="-0.000000 -0.000000 119.689293" a="-29.6893"/>
+	<group name="Land_Mil_Guardhouse2" pos="12167.349609 141.336227 12713.777344" rpy="0.000000 0.000000 24.539602" a="65.4604"/>
+	<group name="StaticObj_Wall_MilCnc_Corner" pos="12113.309570 142.050400 12735.337891" rpy="-0.000000 -0.000000 120.688026" a="-30.688"/>
+	<group name="StaticObj_Wall_MilCnc_Corner" pos="12100.501953 142.014389 12714.199219" rpy="-0.000000 -0.000000 66.093613" a="23.9064"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12094.725586 142.158493 12697.014648" rpy="-0.000000 -0.000000 109.608910" a="-19.6089"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12093.435547 142.120438 12693.379883" rpy="-0.000000 -0.000000 109.609047" a="-19.609"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12099.973633 142.106781 12711.462891" rpy="-0.000000 -0.000000 109.608719" a="-19.6087"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12098.652344 142.155457 12707.870117" rpy="-0.000000 -0.000000 109.608910" a="-19.6089"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12097.345703 142.144440 12704.234375" rpy="-0.000000 -0.000000 109.608665" a="-19.6087"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12253.625977 142.328522 12637.228516" rpy="-0.000000 -0.000000 -103.561348" a="-166.439"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12086.916016 142.165329 12675.317383" rpy="-0.000000 -0.000000 109.608910" a="-19.6089"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12085.625977 142.127274 12671.682617" rpy="-0.000000 -0.000000 109.609047" a="-19.609"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12092.164063 142.113617 12689.765625" rpy="-0.000000 -0.000000 109.608719" a="-19.6087"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12090.842773 142.162292 12686.172852" rpy="-0.000000 -0.000000 109.608910" a="-19.6089"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12089.536133 142.151276 12682.537109" rpy="-0.000000 -0.000000 109.608665" a="-19.6087"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12088.222656 142.141083 12678.910156" rpy="-0.000000 -0.000000 109.609154" a="-19.6092"/>
+	<group name="Land_Tisy_Barracks" pos="12218.828125 144.340546 12654.512695" rpy="-0.000000 -0.000000 22.756639" a="67.2434"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12249.968750 142.289627 12652.147461" rpy="-0.000000 -0.000000 -104.854904" a="-165.145"/>
+	<group name="Land_Mil_GuardTower" pos="12250.923828 146.515472 12618.614258" rpy="-0.000000 -0.000000 -46.624977" a="136.625"/>
+	<group name="Land_Mil_Guardhouse1" pos="12101.295898 142.615341 12622.118164" rpy="-0.000000 -0.000000 -96.604446" a="-173.396"/>
+	<group name="Land_Mil_Fortified_Nest_Watchtower" pos="12082.179688 142.104218 12664.988281" rpy="-0.000000 -0.000000 0.000000" a="90"/>
+	<group name="Land_Wreck_Caravan_WBrown" pos="12191.733398 141.847076 12588.547852" rpy="-0.000000 -0.000000 34.009178" a="55.9908"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12247.056641 142.274445 12663.309570" rpy="-0.000000 -0.000000 -104.855095" a="-165.145"/>
+	<group name="Land_Mil_ControlTower" pos="12131.365234 147.848175 12587.953125" rpy="0.000000 0.000000 55.120995" a="34.879"/>
+	<group name="Wreck_Mi8" pos="12190.392578 141.999939 12630.784180" rpy="2.499995 1.998227 113.870674" a="-23.8707"/>
+	<group name="Land_Mil_Barracks2" pos="12160.335938 141.559814 12680.548828" rpy="0.000000 0.000000 112.748993" a="-22.749"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12155.317383 142.214584 12718.943359" rpy="-0.000000 -0.000000 -158.962158" a="-111.038"/>
+	<group name="StaticObj_Wall_MilCnc_4" pos="12096.032227 142.134247 12700.607422" rpy="-0.000000 -0.000000 109.609154" a="-19.6092"/>
+	<group name="StaticObj_Mil_HBarrier_Round" pos="12217.102539 140.658279 12576.274414" rpy="0.000000 0.000000 -30.135592" a="120.136"/>
+	<group name="Land_Mil_ControlTower" pos="12210.360352 147.749298 12580.780273" rpy="0.000000 0.000000 -42.751938" a="132.752"/>
+	<group name="Land_Mil_Fortified_Nest_Big" pos="12118.597656 140.790314 12598.343750" rpy="-0.000000 -0.000000 62.069538" a="27.9305"/>
+	<group name="Land_Mil_Radar_Mobile1" pos="12128.435547 139.813049 12627.220703" rpy="-0.000000 -0.000000 18.275318" a="71.7247"/>
+	<group name="Land_Mil_GuardBox_Brown" pos="12229.369141 141.605621 12589.815430" rpy="-0.000000 -0.000000 -44.061150" a="134.061"/>
+	<group name="StaticObj_Mil_HBarrier_Round" pos="12233.721680 140.497025 12591.421875" rpy="-0.000000 -0.000000 -37.373531" a="127.374"/>
+	<group name="StaticObj_Mil_HBarrier_6m" pos="12224.367188 140.602127 12583.556641" rpy="0.000000 0.000000 -46.485092" a="136.485"/>
+	<group name="StaticObj_Mil_HBarrier_6m" pos="12221.165039 140.600632 12580.092773" rpy="0.000000 0.000000 -46.485123" a="136.485"/>
+	<group name="Land_Mil_Tent_Big1_1" pos="12234.124023 139.984436 12599.094727" rpy="-0.000000 -0.000000 44.598244" a="45.4018"/>
+	<group name="Land_Mil_Tent_Big4" pos="12227.613281 141.175232 12631.890625" rpy="-0.000000 -0.000000 -156.164337" a="-113.836"/>
+	<group name="Land_Wreck_offroad02_aban2" pos="12226.599609 141.591995 12605.500000" rpy="1.000000 0.000000 0.000000" a="90"/>
+	<group name="StaticObj_Wreck_BMP2" pos="12111.599609 141.112000 12663.299805" rpy="9.999998 -0.499996 0.000000" a="90"/>
+	<group name="StaticObj_Wreck_PowGen" pos="12141.799805 140.602997 12627.000000" rpy="0.000000 -0.499997 0.500000" a="89.5"/>
+	<group name="StaticObj_Wreck_HMMWV" pos="12158.944336 140.914734 12612.955078" rpy="-0.000000 -0.000000 -136.279770" a="-133.72"/>
+	<group name="Land_Mil_Tent_Big2_5" pos="12176.599609 142.001999 12675.900391" rpy="0.000000 0.000000 -67.911591" a="157.912"/>
+	<group name="Land_Mil_Tent_Big3" pos="12193.221680 141.030624 12671.944336" rpy="-0.000000 -0.000000 23.342726" a="66.6573"/>
+	<group name="Land_Mil_Tent_Big4" pos="12186.159180 141.214005 12689.242188" rpy="-0.000000 -0.000000 -67.542976" a="157.543"/>
+	<group name="Land_Container_1Mo" pos="12096.767578 141.148712 12643.472656" rpy="-0.000000 -0.000000 22.172050" a="67.8279"/>
+	<group name="Land_Container_1Mo" pos="12102.169922 141.147278 12640.872070" rpy="0.000000 0.000000 22.172039" a="67.828"/>
+	<group name="Land_Container_1Mo" pos="12162.603516 141.199417 12636.619141" rpy="0.000000 0.000000 115.659973" a="-25.66"/>
+	<group name="Land_Container_1Mo" pos="12173.013672 141.213684 12641.327148" rpy="0.000000 0.000000 21.830294" a="68.1697"/>
+	<group name="StaticObj_Garbage_Container" pos="12115.906250 140.826035 12680.655273" rpy="-0.000000 -0.000000 18.120798" a="71.8792"/>
